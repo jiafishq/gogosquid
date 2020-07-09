@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <title>親愛的,熱愛的</title>
+  <script >   
+    document.addEventListener('DOMContentLoaded', function() {
+    M.AutoInit();
+
+    var options = {
+      fullWidth: true,
+      indicators: true
+    };
+    var elems = document.querySelector('.carousel.no-autoinit');
+    console.log(elems)
+    var instances = M.Carousel.init(elems, options);
+  })
+  </script>
+
+  <body>   
+    <!-- navbar -->
+    <nav>
+    <div class="nav-wrapper black">
+      <a href="#" class="brand-logo pink-text text-lighten-4 " style="font-family:Microsoft JhengHei;" >親愛的,熱愛的</a>
+       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+      <style type="text/css">
+
+        a {color:#414141; text-decoration:none;}
+        a:hover{color:#4c7cbd; text-decoration:none;}
+        .title {
+         font-family: "Cooper Std Black";
+         font-size: 16px;
+         color:#333;
+        }
+        .overtitle{
+         font-family: "Cooper Std Black";
+         font-size: 16px;
+         color:#999;
+        }
+
+      </style>
+        <li ><a href="#story" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left ">toc</i> 故事</a></li>
+        <li><a href="#person" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left">account_circle</i> 人物</a></li>
+        <li><a href="#plot" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left ">tv</i> 劇情</a></li>
+        <li><a href="#notice" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left ">ondemand_video</i> 影像</a></li>
+      </ul>
+    </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+   <li><a href="#story" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left ">toc</i> 故事</a></li>
+        <li><a href="#person" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left">account_circle</i> 人物</a></li>
+        <li><a href="#plot" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left ">tv</i> 劇情</a></li>
+        <li><a href="#notice" style="font-family:Microsoft JhengHei;">
+          <i class="material-icons left ">ondemand_video</i> 影像</a></li>
+      </ul>
+  </ul>
+     
+
+    <!--image css-->
+    <img class="responsive-img "  src="image/01.jpg">
+
+    <!--故事大綱-->
+    <div class="section section-components" id="story"  style="background-color:gray">
+      <div class="container Set39">
+        <div class="row justify-content-md-center my-3" style="font-family:Microsoft JhengHei; background-color:white;border-radius:10px">
+          <div class="col-md-9 text-justify px-5 py-5 txt rounded">
+            <div class="text-center pb-2 center"><img src="image/title_01.png "></div>
+              &nbsp;&nbsp;&nbsp;&nbsp;電腦鬼才佟年是個計算機系的研究生，在某次幫表弟看管網咖的一個深夜裡，她對來到店裡的韓商言一見鍾情，即便不知道對方的年齡、家境，甚至在連名字都不知道的情況下，便展開一連串看似不動聲色的追求行動。<br /><br />
+              <span>&nbsp;&nbsp;&nbsp;&nbsp;韓商言是位電競選手，也是電競圈的傳奇人物，智商情商都極高，只是對女生沒有太大的興趣。為了靠近韓商言，佟年一步步的打進韓商言的內部，經過了一番努力，佟年如願的和韓商言成為了朋友，韓商言一直懷有帶領團隊為國家爭奪冠軍的理想，而佟年始終給予韓商言支援與理解。<br /><br /></span>
+              <span >&nbsp;&nbsp;&nbsp;&nbsp;兩人各自投入到了奪取冠軍的征程，在不同的領域大放異彩，最終兩人攜手一起創建屬於他們的未來。<br /><br /></span>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+    <!--人物介紹-->
+      <div id="person" class="col-12 text-center" >
+        <h2 class="title center"><img src="image/title_02.png" alt="人物介紹" width="auto"></h2>
+      </div>
+    
+    <!--card -->
+    <div class="row">
+      <!--佟年-->
+      <div class="card col l4">
+        <div class="card-image">
+          <img src="image/02.jpg">
+            <span class="card-title" style="font-family:Microsoft JhengHei;">佟年/ 19歲</span>
+        </div>
+          <div class="card-content center">
+           <p style="font-family:Microsoft JhengHei;">活潑軟萌的蘿莉歌姬-魷魚殿下</p>
+           <p style="font-family:Microsoft JhengHei;">跳級計算機鬼才</p>
+           <p style="font-family:Microsoft JhengHei;">楊紫飾演</p>
+          </div>
+            <div class="card-action">
+              <a href="https://baike.baidu.com/item/%E4%BD%9F%E5%B9%B4/22452894" style="font-family:Microsoft JhengHei;">相關鏈接</a>
+            </div>
+      </div>
+  
+      <!--韓商言-->
+      <div class="card col l4">
+        <div class="card-image">
+          <img src="image/03.jpg">
+            <span class="card-title" style="font-family:Microsoft JhengHei;">韓商言/ 30歲</span>
+        </div>
+          <div class="card-content center">
+            <p style="font-family:Microsoft JhengHei;">高冷的電競大神"Gun神"</p>
+            <p style="font-family:Microsoft JhengHei;">K&K電競公司老闆</p>
+            <p style="font-family:Microsoft JhengHei;">李現飾演</p>
+          </div>
+            <div class="card-action">
+              <a href="https://baike.baidu.com/item/%E9%9F%A9%E5%95%86%E8%A8%80/16806214" style="font-family:Microsoft JhengHei;">相關鏈接</a>
+            </div>
+      </div>
+   
+ 
+      <!--吳白-->
+      <div class="card col l4">
+        <div class="card-image">
+          <img src="image/04.jpg">
+            <span class="card-title" style="font-family:Microsoft JhengHei;">吳白/ 23歲</span>
+        </div>
+          <div class="card-content center">
+            <p style="font-family:Microsoft JhengHei;">韓商言堂弟</p>
+            <p style="font-family:Microsoft JhengHei;">K&K戰隊隊長</p>
+            <p style="font-family:Microsoft JhengHei;">胡一天飾演</p>
+          </div>
+            <div class="card-action">
+              <a href="https://baike.baidu.com/item/%E5%90%B4%E7%99%BD/22452925" style="font-family:Microsoft JhengHei;">相關鏈接</a>
+            </div>
+ 
+      </div>
+    </div>
+    </div>
+
+    <!--劇情介紹-->
+    <div id="plot" class="col-12 text-center">
+        <h2 class="title center"><img src="image/title_03.png" alt="劇情介紹" width="auto"></h2>
+    </div>
+    <!--第一集介紹-->
+    <ul class="collapsible" style="font-family:Microsoft JhengHei;">
+    <li>
+      <div class="collapsible-header" >第一集 一見鍾情</div>
+      <div class="collapsible-body"><span>身穿一身黑色運動衣，揹著運動包的韓商言走到櫃檯前，吸引了看管網咖的佟年。佟年在看到韓商言的一瞬，竟對這個不知來歷的男人，一見鍾情。她想要認識韓商言，卻羞澀不敢開口，只能用網咖抽獎為藉口，拿到了韓商言的微訊號。並反覆叮囑韓商言定期關注網咖，會有各種福利，歡迎韓商言再次光顧。韓商言沒有在意這個負責收錢的女孩，在網咖耗費了大半夜，心情平復後，回到了俱樂部，開始了緊鑼密鼓的備戰訓練。佟年多次以網咖微訊號的名義發微信給韓商言預報天氣及上網預約等資訊，韓商言皆未理會。</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">第二集 回憶往事</div>
+      <div class="collapsible-body"><span>送走王浩，韓商言回憶起十年前，索羅戰隊剛剛奪得全國冠軍，卻因王浩和艾情的感情問題處理不得當，導致索羅戰隊解散，韓商言當場退役，眾人分道揚鑣。在北京的小飯館，索羅戰隊成員們喝得酩酊大醉。米邵飛也選擇了退役，艾情默默流淚，歐強質問王浩。王浩醉得癱倒在地，韓商言趕來，氣憤之下，將王浩痛打一頓，王浩答應韓商言從此以後再也不做隊長。韓商言黯然離開，王浩趕到飛機場送別，韓商言負氣離開中國回到挪威。第二天，韓商言到米邵飛的小賣部跟歐強和米邵飛告別，大家雖然陣營不同但夢想一致，三人相約賽場上見。</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">第三集 誤會鬧笑話</div>
+      <div class="collapsible-body"><span>佟年進入賽場見到韓商言，韓商言也認出佟年，兩人烏龍對話後，韓商言要離場時佟年抓住其衣角，這一幕被在台上的戰隊隊員看到，大家誤以為佟年是韓商言的女朋友。佟年離場時聽聞粉絲在討論Grunt胃出血，一直以來佟年皆誤以為Grunt就是韓商言的 ID，於是再次衝進賽場休息區找Grunt。小隊員將佟年誤認為大嫂（韓商言的女友），將其帶進休息室。休息室裡佟年與真正的Grunt（沈哲）面面相覷互問對方是誰，韓商言誤以為佟年是沈哲的女朋友，而沈哲因為談戀愛而耽誤訓練，但兩人都稱不認識對方。</span></div>
+    </li>
+    </ul>
+        
+    <!--影音預告-->
+    <div id="notice" class="col-12 text-center">
+        <h2 class="title center"><img src="image/title_05.png" alt="影音預告" width="auto"></h2>
+    </div>
+  
+    <div class="carousel carousel-slider no-autoinit">
+      <!--第一步預告片-->
+      <a class="carousel-item center" href="#one!">
+        <video  class="responsive-video " controls >
+          <source src="video/01.mp4" type="video/mp4" >
+        </video>
+      </a>
+      <!--第二部預告片-->
+      <a class="carousel-item center" href="#two!">
+        <video  class="responsive-video " controls >
+           <source src="video/02.mp4" type="video/mp4" >
+        </video>
+      </a>  
+    </div>
+
+    <!--footer -->
+    <footer class="page-footer black white-text ">         
+      <div class="container">
+      © 2020 Copyright Text
+      </div>
+    </footer> 
+
+</body>
+</html>
